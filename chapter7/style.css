@@ -1,34 +1,45 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: boder-box;
+  box-sizing: border-box;
 }
 
-.main-visual{
+.main-visual {
   height: 400px;
+  width: 100%;
   background-image: url(img/mv.jpg);
   background-size: cover;
   background-position: bottom;
 }
 
-.main-visual-text{
-  color: silver;
-  padding-top: 20px;
-  padding-left: 20px;
+.headline {
+  padding: 20px;
 }
 
-.blog{
+main {
   width: 840px;
-  margin-top: 50px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid silver;
-  text-align: center;
+  margin: 50px auto;
 }
 
-.blog1{
- width: 840px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.service1 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
   padding-bottom: 30px;
-  border-bottom: 1px solid silver;  
+}
+
+.service2 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service3 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service4 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
 }
